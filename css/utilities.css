@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+ 
+}
+
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{ 
+font-size: 1rem;
+font-weight: 480;
+padding: 0.5rem 2rem;
+border: 2px solid transparent;
+
+margin-bottom: 20px;
+outline: none;
+
+cursor: pointer;
+text-transform: uppercase;
+transition: all .3s ease;
+}
+.btn-primary{
+    background-color: #7d9ccf;
+    
+}
+.btn-primary:hover
+{
+    background:transparent;
+    border-color:  #305082;
+}
+.flex1{
+    flex:1;
+}
+.justify-center
+{
+    justify-content: center;
+}
